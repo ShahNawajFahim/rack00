@@ -79,7 +79,8 @@ function Home() {
     });
     if (response.ok) {
       console.log("Order successful!");
-      history.push("/orders");
+      localStorage.setItem("formData", JSON.stringify(formData));
+      window.location.href = "/order";
     }
   };
 
@@ -297,7 +298,7 @@ function Home() {
 
       {/* <<<<seclection container>>>>   end  */}
 
-      <form onClick={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className="lg:p-12  pt-1 bg-slate-900 ">
           <div className="lg:m-24 lg:flex ">
             {/* <<<biling container start>>> */}
