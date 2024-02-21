@@ -342,7 +342,7 @@ function Home() {
               </label>
               কালার সিলেক্ট করুন:
               <div className="flex lg:gap-8">
-                <label className="cursor-pointer label mt-2 mb-2">
+                <label className=" label mt-2 mb-2">
                   <input
                     type="checkbox"
                     value="Sky Color"
@@ -350,7 +350,7 @@ function Home() {
                   />
                   <span className="label-text text-white pl-2">Sky Color</span>
                 </label>
-                <label className="cursor-pointer label mt-2 mb-2">
+                <label className=" label mt-2 mb-2">
                   <input
                     type="checkbox"
                     value="Orange Color"
@@ -360,7 +360,7 @@ function Home() {
                     Orange Color
                   </span>
                 </label>
-                <label className="cursor-pointer label mt-2 mb-2">
+                <label className=" label mt-2 mb-2">
                   <input
                     type="checkbox"
                     value="Green Color"
